@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 21 20:12:08 2021
+# Process ID: 14968
+# Current directory: C:/Users/julix/git/DDCA/lab2_report_julian/Lab2_report_julian/Lab2_report_julian.runs/synth_1
+# Command line: vivado.exe -log Decoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder.tcl
+# Log file: C:/Users/julix/git/DDCA/lab2_report_julian/Lab2_report_julian/Lab2_report_julian.runs/synth_1/Decoder.vds
+# Journal file: C:/Users/julix/git/DDCA/lab2_report_julian/Lab2_report_julian/Lab2_report_julian.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Decoder.tcl -notrace
