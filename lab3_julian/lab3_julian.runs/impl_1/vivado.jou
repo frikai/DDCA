@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Mar 26 10:39:55 2021
-# Process ID: 11200
+# Start of session at: Wed Mar 31 09:19:43 2021
+# Process ID: 15904
 # Current directory: C:/Users/julix/git/DDCA/lab3_julian/lab3_julian.runs/impl_1
-# Command line: vivado.exe -log TopAdder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopAdder.tcl -notrace
-# Log file: C:/Users/julix/git/DDCA/lab3_julian/lab3_julian.runs/impl_1/TopAdder.vdi
+# Command line: vivado.exe -log TopAdder1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopAdder1.tcl -notrace
+# Log file: C:/Users/julix/git/DDCA/lab3_julian/lab3_julian.runs/impl_1/TopAdder1.vdi
 # Journal file: C:/Users/julix/git/DDCA/lab3_julian/lab3_julian.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source TopAdder.tcl -notrace
+source TopAdder1.tcl -notrace
