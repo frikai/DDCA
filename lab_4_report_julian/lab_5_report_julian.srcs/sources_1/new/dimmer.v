@@ -31,8 +31,8 @@ module dimmer(input clk, input reset, input m_clk, input [2:0] state, input [5:0
         counter = counter + 1;
         c_light_state = (counter <= on_time);
         out = lights;
-        /*if (~(state == 3'b111))
-            out[state] = c_light_state;*/
+        if (~(state == 3'b111))
+            out[state] = c_light_state;
     end
         
     always @ (posedge reset) begin
