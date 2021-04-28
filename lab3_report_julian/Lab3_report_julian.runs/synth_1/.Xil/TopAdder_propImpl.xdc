@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/julix/git/DDCA/Lab3_report_julian/Lab3_report_julian.srcs/constrs_1/new/Constraints.xdc rfile:../../../Lab3_report_julian.srcs/constrs_1/new/Constraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/julix/git/DDCA/lab3_report_julian/Lab3_report_julian.srcs/constrs_1/new/Constraints.xdc rfile:../../../Lab3_report_julian.srcs/constrs_1/new/Constraints.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W7 [get_ports {s[6]}]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
