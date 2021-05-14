@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 14 08:57:53 2021
+# Process ID: 8264
+# Current directory: C:/Users/julix/git/DDCA/Lab_6_report/Lab_6_report.runs/synth_1
+# Command line: vivado.exe -log bad_ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bad_ALU.tcl
+# Log file: C:/Users/julix/git/DDCA/Lab_6_report/Lab_6_report.runs/synth_1/bad_ALU.vds
+# Journal file: C:/Users/julix/git/DDCA/Lab_6_report/Lab_6_report.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bad_ALU.tcl -notrace

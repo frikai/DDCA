@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSM_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSM_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6655000001fs"></ZoomEndTime>
+      <Cursor1Time time="10000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/FSM_test/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/left" type="logic">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/right" type="logic">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/out" type="array">
+      <obj_property name="ElementShortName">out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">out[5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/input_clk" type="logic">
+      <obj_property name="ElementShortName">input_clk</obj_property>
+      <obj_property name="ObjectShortName">input_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/vec_cnt" type="array">
+      <obj_property name="ElementShortName">vec_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">vec_cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/err_cnt" type="array">
+      <obj_property name="ElementShortName">err_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">err_cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/testvec" type="array">
+      <obj_property name="ElementShortName">testvec[0:8][2:0]</obj_property>
+      <obj_property name="ObjectShortName">testvec[0:8][2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/left" type="logic">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/right" type="logic">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/out" type="array">
+      <obj_property name="ElementShortName">out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/nextstate" type="array">
+      <obj_property name="ElementShortName">nextstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nextstate[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/S0" type="array">
+      <obj_property name="ElementShortName">S0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/L1" type="array">
+      <obj_property name="ElementShortName">L1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">L1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/L2" type="array">
+      <obj_property name="ElementShortName">L2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">L2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/L3" type="array">
+      <obj_property name="ElementShortName">L3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">L3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/R1" type="array">
+      <obj_property name="ElementShortName">R1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/R2" type="array">
+      <obj_property name="ElementShortName">R2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_test/top_fsm/fsm/R3" type="array">
+      <obj_property name="ElementShortName">R3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R3[2:0]</obj_property>
+   </wvobject>
+</wave_config>

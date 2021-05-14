@@ -1,0 +1,33 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 16.04.2021 09:12:50
+// Design Name: 
+// Module Name: clock
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module dim_clock(input clk, input rst, output clk_en);
+    reg [21:0] clk_count;
+    always @ (posedge clk)
+        begin
+            if (rst)
+                clk_count <= 0;
+            else
+                clk_count <= clk_count + 1;
+        end
+    assign clk_en = &clk_count;
+endmodule

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sim_1/new/FSM_test.v,1621024673,verilog,,,,FSM_test,,,,,,,,
+C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sources_1/imports/new/clock.v,1621024232,verilog,,C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sources_1/imports/new/fsm.v,,clock,,,,,,,,
+C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sources_1/imports/new/fsm.v,1619808748,verilog,,C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sources_1/imports/new/top_fsm.v,,fsm,,,,,,,,
+C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sources_1/imports/new/top_fsm.v,1619808748,verilog,,C:/Users/julix/git/DDCA/Lab6Report/Lab6Report.srcs/sim_1/new/FSM_test.v,,top_fsm,,,,,,,,
