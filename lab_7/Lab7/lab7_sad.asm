@@ -19,43 +19,43 @@ main:
 	# (to be precise, lui also sets the lower 16 bits to 0, ori ORs it with the given immediate)
 	     lui     $s0, 0x0000 # Address of first element in the vector
 	     ori     $s0, 0x0000
-	     addi    $t0, $0, 2	# left_image[0]	
+	     addi    $t0, $0, 5	# left_image[0]	
 	     sw      $t0, 0($s0)
-	     addi    $t0, $0, 5	# left_image[1]		
+	     addi    $t0, $0, 16	# left_image[1]		
 	     sw      $t0, 4($s0)
-	     addi    $t0, $0, 5	# left_image[2]		
+	     addi    $t0, $0, 7	# left_image[2]		
 	     sw      $t0, 8($s0)
-	     addi    $t0, $0, 4	# left_image[3]		
+	     addi    $t0, $0, 1	# left_image[3]		
 	     sw      $t0, 12($s0)
-	     addi    $t0, $0, 0	# left_image[4]		
+	     addi    $t0, $0, 1	# left_image[4]		
 	     sw      $t0, 16($s0)
-	     addi    $t0, $0, 7	# left_image[5]		
+	     addi    $t0, $0, 13	# left_image[5]		
 	     sw      $t0, 20($s0)
-	     addi    $t0, $0, 7	# left_image[6]		
+	     addi    $t0, $0, 2	# left_image[6]		
 	     sw      $t0, 24($s0)
-	     addi    $t0, $0, 5	# left_image[7]		
+	     addi    $t0, $0, 8	# left_image[7]		
 	     sw      $t0, 28($s0)
-	     addi    $t0, $0, 9	# left_image[8]		
+	     addi    $t0, $0, 10	# left_image[8]		
 	     sw      $t0, 32($s0)
 	     
 	     
-	     addi    $t0, $0, 7	# right_image[0]		
+	     addi    $t0, $0, 4	# right_image[0]		
 	     sw      $t0, 36($s0)
-	     addi    $t0, $0, 5	# right_image[1]		
+	     addi    $t0, $0, 15	# right_image[1]		
 	     sw      $t0, 40($s0)
 	     addi    $t0, $0, 8	# right_image[2]		
 	     sw      $t0, 44($s0)
-	     addi    $t0, $0, 7	# right_image[3]		
+	     addi    $t0, $0, 0	# right_image[3]		
 	     sw      $t0, 48($s0)
-	     addi    $t0, $0, 4	# right_image[4]		
+	     addi    $t0, $0, 2	# right_image[4]		
 	     sw      $t0, 52($s0)
-	     addi    $t0, $0, 2	# right_image[5]		
+	     addi    $t0, $0, 12	# right_image[5]		
 	     sw      $t0, 56($s0)
-	     addi    $t0, $0, 4	# right_image[6]		
+	     addi    $t0, $0, 3	# right_image[6]		
 	     sw      $t0, 60($s0)
-	     addi    $t0, $0, 6	# right_image[7]		
+	     addi    $t0, $0, 7	# right_image[7]		
 	     sw      $t0, 64($s0)
-	     addi    $t0, $0, 8	# right_image[8]		
+	     addi    $t0, $0, 11	# right_image[8]		
 	     sw      $t0, 68($s0)
 	     
 	     
@@ -65,7 +65,6 @@ main:
 	addi $s1, $0, 0 # $s1 = i = 0
 	addi $s2, $0, 9	# $s2 = image_size = 9
 	
-	j loop
 
 loop:
 	# check exit condition

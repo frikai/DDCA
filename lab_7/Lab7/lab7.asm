@@ -14,8 +14,8 @@ main:
 
 	# Put your sum S into register $t2
 	
-	addi $t0, $0, 1 # this is our input A
-	addi $t1, $0, 2 # this is our input B
+	addi $t0, $0, 0 # this is our input A
+	addi $t1, $0, 10 # this is our input B
 	# check inputs for special cases:
 	beq $t0, $t1, a_eq_b
 	
