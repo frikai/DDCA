@@ -28,9 +28,8 @@ forward:
    addi $t2, $0, 0 # clear $t2 counter
 
 wait:
-   beq $t2,$t3,forward
-   slt $t6, $t3, $t2 	# since we no longer only increment by 1, we also need to check if it's larger
-   beq $t6, 1, forward 	# if it is, branch
+   slt $t6, $t2, $t3 	# since we no longer only increment by 1, we also need to check if it's larger
+   beq $t6, 0, forward 	# if it is, branch
    lw $t6, 0x7ff4($0)	# load SPD from memory IO
    add  $t2, $t2, $t6     # increment counter based on SPD
    j wait
