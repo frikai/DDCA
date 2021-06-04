@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v,1622788823,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v,,ALU,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/ControlUnit.v,1622765876,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v,,ControlUnit,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/DataMemory.v,1622765876,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/InstructionMemory.v,,DataMemory,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/InstructionMemory.v,1622765876,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS.v,,InstructionMemory,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS.v,1622772399,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/ControlUnit.v,,MIPS,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS_test.v,1622765876,verilog,,,,MIPS_test,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v,1622765876,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v,,RegisterFile,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/lab_9.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v,1622765876,verilog,,C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS_test.v,,reg_half;reg_half_dist_mem_gen_v4_1_xst_1,,,,,,,,

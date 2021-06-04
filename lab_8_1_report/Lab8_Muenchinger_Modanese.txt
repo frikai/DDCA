@@ -1,0 +1,28 @@
+Lab Report 8.1) 28.05.2021
+Nicolas Münchinger, Julian Modanese
+
+Exercise 1)
+Both ADDI and LW, as well as R-type instructions
+
+Exercise 2)
+This is possible due to the small size of our memory:
+Both our instruction and data memory only have 64 adresses storing 32 bits each, 
+and since 2^6 = 64 we only need 6 bits to get the required address range.
+
+Exercise 3)
+snake_patterns: Without this, our snake would be moving as fast as our MIPS processor
+can make it. And, while it's a slow processor in the grand scheme of things,
+this would still result in movement that's far too fast for the human eye to follow.
+We thus use this counter to add a delay between position changes so that we humans 
+can fully appreciate our snake :)
+
+clock_div: the inbuilt clock circuit on the FPGA operates at 50MHZ, which is too fast for our
+MIPS processor to safely operate at - the longest data path is 25ns. We thus need to slow the 
+clock down to a safe speed, which is 10MHZ in the case of our processor. We accomplish this 
+by using the counter in clock_div.
+
+DispCount: our display consists of 4 different 7-segment displays, and we can only update one
+at a time. Thus we have to loop over the displays and update them sequentially. We use DispCount
+to keep implement this looping. Since we as humans are limited, our eyes cannot register this 
+and to us it looks as though all 4 displays are updated at the same time
+

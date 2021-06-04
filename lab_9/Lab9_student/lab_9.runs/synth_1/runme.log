@@ -1,0 +1,301 @@
+
+*** Running vivado
+    with args -log MIPS.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPS.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source MIPS.tcl -notrace
+Command: synth_design -top MIPS -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11388
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MIPS' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS.v:21]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/InstructionMemory.v:21]
+INFO: [Synth 8-3876] $readmem data file 'insmem_h.txt' is read successfully [C:/Users/julix/git/DDCA/lab_9/Lab9_student/InstructionMemory.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (1#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/InstructionMemory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:21]
+INFO: [Synth 8-6157] synthesizing module 'reg_half' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:17]
+INFO: [Synth 8-6157] synthesizing module 'reg_half_dist_mem_gen_v4_1_xst_1' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:133]
+INFO: [Synth 8-6157] synthesizing module 'GND' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:14703]
+INFO: [Synth 8-6155] done synthesizing module 'GND' (2#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:14703]
+INFO: [Synth 8-6157] synthesizing module 'RAM32X1D' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:70268]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'RAM32X1D' (3#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:70268]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39209]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (4#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39209]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (5#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-6157] synthesizing module 'LUT2' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39171]
+	Parameter INIT bound to: 4'b0100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2' (6#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39171]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized0' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39171]
+	Parameter INIT bound to: 4'b1000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized0' (6#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39171]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:81725]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (7#1) [D:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:81725]
+INFO: [Synth 8-6155] done synthesizing module 'reg_half_dist_mem_gen_v4_1_xst_1' (8#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:133]
+WARNING: [Synth 8-7071] port 'qspo' of module 'reg_half_dist_mem_gen_v4_1_xst_1' is unconnected for instance 'BU2' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:50]
+WARNING: [Synth 8-7071] port 'qdpo' of module 'reg_half_dist_mem_gen_v4_1_xst_1' is unconnected for instance 'BU2' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:50]
+WARNING: [Synth 8-7023] instance 'BU2' of module 'reg_half_dist_mem_gen_v4_1_xst_1' has 18 connections declared, but only 16 given [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'reg_half' (9#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/reg_half_synthmodel.v:17]
+WARNING: [Synth 8-7071] port 'spo' of module 'reg_half' is unconnected for instance 'i_portA' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:39]
+WARNING: [Synth 8-7023] instance 'i_portA' of module 'reg_half' has 7 connections declared, but only 6 given [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:39]
+WARNING: [Synth 8-7071] port 'spo' of module 'reg_half' is unconnected for instance 'i_portB' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:47]
+WARNING: [Synth 8-7023] instance 'i_portB' of module 'reg_half' has 7 connections declared, but only 6 given [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (10#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/RegisterFile.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:21]
+WARNING: [Synth 8-567] referenced signal 'aluop' should be on the sensitivity list [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:77]
+WARNING: [Synth 8-567] referenced signal 'multvalue' should be on the sensitivity list [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:77]
+WARNING: [Synth 8-567] referenced signal 'low' should be on the sensitivity list [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/DataMemory.v:21]
+INFO: [Synth 8-3876] $readmem data file 'datamem_h.txt' is read successfully [C:/Users/julix/git/DDCA/lab_9/Lab9_student/DataMemory.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (12#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/DataMemory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ControlUnit.v:21]
+	Parameter OP_RTYPE bound to: 6'b000000 
+	Parameter OP_LW bound to: 6'b100011 
+	Parameter OP_SW bound to: 6'b101011 
+	Parameter OP_BEQ bound to: 6'b000100 
+	Parameter OP_ADDI bound to: 6'b001000 
+	Parameter OP_J bound to: 6'b000010 
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (13#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ControlUnit.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MIPS' (14#1) [C:/Users/julix/git/DDCA/lab_9/Lab9_student/MIPS.v:21]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Synth 8-327] inferring latch for variable 'low_reg' [C:/Users/julix/git/DDCA/lab_9/Lab9_student/ALU.v:79]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Multipliers : 
+	              32x32  Multipliers := 1     
++---Muxes : 
+	  65 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 11    
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP i_alu/multvalue, operation Mode is: A*B.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: Generating DSP i_alu/multvalue, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: Generating DSP i_alu/multvalue, operation Mode is: A*B.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: Generating DSP i_alu/multvalue, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+DSP Report: operator i_alu/multvalue is absorbed into DSP i_alu/multvalue.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
+-------NONE-------
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MIPS        | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MIPS        | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MIPS        | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MIPS        | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    20|
+|3     |DSP48E1  |     3|
+|4     |LUT1     |     3|
+|5     |LUT2     |    35|
+|6     |LUT3     |   173|
+|7     |LUT4     |    69|
+|8     |LUT5     |    57|
+|9     |LUT6     |    88|
+|10    |MUXF7    |    10|
+|11    |RAM32X1D |   128|
+|12    |FDCE     |    20|
+|13    |FDPE     |    11|
+|14    |LDC      |    32|
+|15    |IBUF     |     2|
+|16    |OBUF     |    64|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------+-----------------------------------+------+
+|      |Instance    |Module                             |Cells |
++------+------------+-----------------------------------+------+
+|1     |top         |                                   |   717|
+|2     |  i_alu     |ALU                                |   117|
+|3     |  i_regf    |RegisterFile                       |   463|
+|4     |    i_portA |reg_half                           |   184|
+|5     |      BU2   |reg_half_dist_mem_gen_v4_1_xst_1_1 |   184|
+|6     |    i_portB |reg_half_0                         |   279|
+|7     |      BU2   |reg_half_dist_mem_gen_v4_1_xst_1   |   279|
++------+------------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1018.543 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1018.543 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 193 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1018.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 160 instances were transformed.
+  LDC => LDCE: 32 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 128 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1018.543 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/julix/git/DDCA/lab_9/Lab9_student/lab_9.runs/synth_1/MIPS.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MIPS_utilization_synth.rpt -pb MIPS_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  4 04:07:41 2021...
