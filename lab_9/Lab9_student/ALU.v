@@ -43,6 +43,7 @@ module ALU(
   
   wire [1:0] logicsel;    // lower two bits of aluop;
   reg [31:0] lo;
+  reg [31:0] lo2;
   
   // logic select 
   assign logicsel = aluop[1:0];
@@ -71,11 +72,11 @@ module ALU(
   //multiplication result
   assign multvalue = a * b;
   
-  always @(clock, reset)
+  always @(posedge clock, posedge reset)
   begin
     if (reset) lo <= 32'b0;
     else if (aluop == 6'b011001) lo <= multvalue; 
-    else lo <= lo;    
+    lo2 <= (lo==32'b0) ? 32'b111 : 32'b101;
   end
   
   assign new_result = (aluop == 6'b010010) ? lo : shiftvalue;
