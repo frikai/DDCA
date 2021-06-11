@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Jun  4 08:58:20 2021
-# Process ID: 15256
+# Start of session at: Fri Jun 11 23:29:35 2021
+# Process ID: 3208
 # Current directory: C:/Users/julix/git/DDCA/lab_9/Lab9_student/lab_9.runs/synth_1
 # Command line: vivado.exe -log MIPS.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPS.tcl
 # Log file: C:/Users/julix/git/DDCA/lab_9/Lab9_student/lab_9.runs/synth_1/MIPS.vds
